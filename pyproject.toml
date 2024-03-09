@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "web-scrapper"
+version = "0.1.0"
+description = "This is a basic web scrapper using Python"
+authors = ["Guillaume Horent <guillaume.horent@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.6.2"
+ruff = "^0.3.2"
+docformatter = "*"
+nbconvert = "*"
+mypy = "^1.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
